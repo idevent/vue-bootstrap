@@ -1,0 +1,35 @@
+.navbar-default {
+    background-color: transparent;
+}
+.nav-menu {
+    a {
+        color: #999;
+        font-weight: normal;
+        cursor: pointer;
+        &.active, &:hover, &:focus {
+            color: #ddd;
+            font-weight: bold;
+            background-color: #444!important;
+        }
+
+        &.active {
+            border-left: 2px solid @global-primary;
+        }
+
+        i {
+            margin-right: 6px;
+        }
+
+        .arrow {
+            line-height: 1.5;
+        }
+
+        small, .small {
+            color: #777;
+        }
+    }
+}
+
+.nav-menu .nav > li > a {
+    padding-left: 52px;
+}

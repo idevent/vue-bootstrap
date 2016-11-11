@@ -1,0 +1,43 @@
+//默认主题
+@import "../../../styles/themes/default/index";
+
+/**两栏布局开始*/
+body, html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #333;
+  color: #676a6c;
+    -webkit-font-smoothing: antialiased;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#page-wrapper {
+  background-color: #f3f3f3;
+  min-height: calc(100vh);
+  margin: 0 0 0 220px;
+}
+
+.navbar-static-side {
+  z-index: 200;
+  position: absolute;
+  left: 0;
+  width: 220px;
+}
+
+.navbar-static-top {
+    border-bottom: 1px solid @legend-border-color;
+    margin-bottom: 20px;
+}
+
+.logo {
+    background: url("../logo.svg") no-repeat center;
+    height: 80px;
+    margin: 15px 0;
+    text-indent: -999px;
+}
+/**布局结束*/
