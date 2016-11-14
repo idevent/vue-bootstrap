@@ -1,0 +1,32 @@
+.nav-tabs {
+    > li {
+        &.disabled {
+            a {
+                color: @global-gray!important;
+            }
+        }
+        > a {
+            border: none!important;
+            color: inherit;
+            &:hover, &:focus {
+                background: transparent;
+                border: none;
+                color: @brand-primary;
+            }
+        }
+
+        &.active {
+            border-bottom: 2px solid @brand-primary;
+            > a {
+                color: @brand-primary!important;
+            }
+        }
+    }
+
+}
+
+.tab-content {
+    padding: 15px 0;
+}
+
+

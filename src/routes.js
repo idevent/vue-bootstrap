@@ -10,4 +10,10 @@ export default [{
 }, {
     path: '/button',
     component: resolve => require(['components/Button.vue'], resolve)
+}, {
+    path: '/tabs',
+    component: resolve => require(['components/Tabs.vue'], resolve)
+}, {
+    path: '/modal',
+    component: resolve => require(['components/Modal.vue'], resolve)
 }]
