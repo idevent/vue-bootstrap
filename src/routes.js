@@ -7,4 +7,7 @@ export default [{
 }, {
     path: '/panel',
     component: resolve => require(['components/Panel.vue'], resolve)
+}, {
+    path: '/button',
+    component: resolve => require(['components/Button.vue'], resolve)
 }]

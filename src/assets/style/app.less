@@ -7,7 +7,7 @@ body, html {
   height: 100%;
 }
 body {
-  background: #333;
+  background: #f3f3f3;
   color: #676a6c;
     -webkit-font-smoothing: antialiased;
 }
@@ -23,10 +23,22 @@ body {
 }
 
 .navbar-static-side {
-  z-index: 200;
-  position: absolute;
-  left: 0;
-  width: 220px;
+    z-index: 200;
+    position: absolute;
+    left: 0;
+    width: 220px;
+    background-color: #333;
+    &:before {
+        content: '';
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        background-color: #333;
+        width: 220px;
+        z-index: -1;
+    }
 }
 
 .navbar-static-top {

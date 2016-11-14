@@ -1,0 +1,47 @@
+.btn {
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.btn-outline {
+    background: transparent;
+    transition: all .5s;
+    color: inherit;
+    &:hover, &:focus {
+        color: #fff!important;
+    }
+}
+
+.btn-white {
+    background: #fff!important;
+    color: inherit;
+}
+.btn-primary.btn-outline {
+    color: @btn-primary-border;
+}
+.btn-success.btn-outline {
+    color: @btn-success-border;
+}
+.btn-danger.btn-outline {
+    color: @btn-danger-border;
+}
+.btn-warning.btn-outline {
+    color: @btn-warning-border;
+}
+.btn-info.btn-outline {
+    color: @btn-info-border;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    padding: 6px 9px;
+    &.btn-lg {
+        padding: 10px 13px;
+    }
+    &.btn-sm {
+        padding: 5px 8px;
+    }
+    &.btn-xs {
+        padding: 1px 4px;
+    }
+}

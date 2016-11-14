@@ -1,18 +1,41 @@
 <template>
     <div class="panel clearfix">
-        <div class="panel-heading">
-            <h5 class="pull-left">标题
-                <small>副标题</small>
+        <div v-if="title" class="panel-heading">
+            <h5 class="pull-left">{{title}}
+                <small>{{subTitle}}</small>
             </h5>
         </div>
         <div class="panel-body">
             <slot>
                 <div class="panel-placeholder">
-                    <i class="fa fa-clock-o"></i>
+                    <i :class="icon"></i>
                     <br/>
-                    还有商品信息，请添加
+                    {{placeholder}}
                 </div>
             </slot>
         </div>
     </div>
 </template>
+<script>
+    export default {
+        props: {
+            title: {
+                type: String,
+                default: ''
+            },
+            subTitle: {
+                type: String,
+                default: ''
+            },
+            placeholder: {
+                type: String,
+                default: '暂无数据'
+            },
+            icon: {
+                type: String,
+                default: 'fa fa-folder-open-o'
+            }
+
+        }
+    }
+</script>
