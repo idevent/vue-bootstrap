@@ -15,10 +15,10 @@ const router = new Router({
 
 /* eslint-disable no-new */
 const app = new Vue({
-	el: '#app',
-  router: router,
-  template: '<App/>',
-  components: {
-      App
-  }
+    el: '#app',
+    router: router,
+    template: '<App/>',
+    components: {
+        App
+    }
 })

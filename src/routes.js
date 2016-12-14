@@ -2,6 +2,9 @@ export default [{
     path: '/',
     component: require('components/Hello.vue')
 }, {
+    path: '/icon',
+    component: resolve => require(['components/Icon.vue'], resolve)
+},{
     path: '/breadcrumb',
     component: resolve => require(['components/Breadcrumb.vue'], resolve)
 }, {

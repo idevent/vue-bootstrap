@@ -5,7 +5,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header text-center">
-                        <h4>窗口标题 <span class="pull-right">x</span></h4>
+                        <h4>窗口标题 <span class="pull-right iconfont icon-close"></span></h4>
                     </div>
                     <div class="modal-body">
 

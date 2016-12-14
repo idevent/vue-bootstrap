@@ -40,11 +40,10 @@
         computed: {
             angleCls () {
                 return cx({
-                    ['fa']: true,
-                    ['arrow']: true,
-                    ['fa-angle-up']: true,
+                    ['iconfont']: true,
+                    ['icon-less']: true,
                     ['pull-right']: true,
-                    ['fa-rotate-180']: this.open
+                    ['iconfont-rotate-180']: this.open
                 })
             },
 

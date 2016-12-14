@@ -3,7 +3,7 @@
         <nav class="navbar-default navbar-static-side">
             <div class="logo">iDEvent</div>
             <i-menu>
-                <i-item icon="fa fa-th-large" link="/foo" title="Dashborads"></i-item>
+                <i-item icon="iconfont icon-all" link="/icon" title="IconFont" sub-title="图标"></i-item>
                 <i-item link="/breadcrumb" title="Breadcrumb" sub-title="面包屑"></i-item>
                 <i-item link="/panel" title="Panel" sub-title="面板"></i-item>
                 <i-item link="/button" title="Button" sub-title="按钮"></i-item>

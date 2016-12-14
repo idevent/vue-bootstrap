@@ -1,0 +1,20 @@
+// Rotated & Flipped Icons
+// -------------------------
+
+.iconfont-rotate-90  { .fa-icon-rotate(90deg, 1);  }
+.iconfont-rotate-180 { .fa-icon-rotate(180deg, 2); }
+.iconfont-rotate-270 { .fa-icon-rotate(270deg, 3); }
+
+.iconfont-flip-horizontal { .fa-icon-flip(-1, 1, 0); }
+.iconfont-flip-vertical   { .fa-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .iconfont-rotate-90,
+:root .iconfont-rotate-180,
+:root .iconfont-rotate-270,
+:root .iconfont-flip-horizontal,
+:root .iconfont-flip-vertical {
+  filter: none;
+}

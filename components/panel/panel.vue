@@ -33,7 +33,7 @@
             },
             icon: {
                 type: String,
-                default: 'fa fa-folder-open-o'
+                default: 'iconfont icon-endorse'
             }
 
         }
