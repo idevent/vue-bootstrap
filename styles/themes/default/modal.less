@@ -5,12 +5,26 @@
 }
 
 .modal-header {
+    position: relative;
     .h4, h4 {
         margin: 0;
-        color: #333;
+        color: @global-dark;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
     }
 
     .icon-close {
+        font-weight: 600;
         cursor: pointer;
+        color: @global-gray;
+        display: inline-block;
+        line-height: 1;
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        &:hover, &:focus {
+            color: @global-dark;
+        }
     }
 }

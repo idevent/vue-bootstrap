@@ -1,6 +1,5 @@
 .btn {
-    border-radius: 2px;
-    margin-bottom: 10px;
+    border-radius: 0px;
 }
 
 .btn-outline {
@@ -15,6 +14,20 @@
 .btn-white {
     background: #fff!important;
     color: inherit;
+}
+.btn-default {
+    background: #f3f3f3;
+    border-color: #f3f3f3;
+}
+
+.btn-default.btn-outline {
+    color: @btn-default-color;
+    border-color: @btn-default-border;
+    background: #fff;
+    &:hover, &:focus {
+        background: #f3f3f3;
+        color: @btn-default-color!important;
+    }
 }
 .btn-primary.btn-outline {
     color: @btn-primary-border;
@@ -34,9 +47,12 @@
 
 .btn-circle {
     border-radius: 50%;
+}
+
+.btn-circle, .btn-square {
     padding: 6px 9px;
     &.btn-lg {
-        padding: 10px 13px;
+        padding: 12px 13px;
     }
     &.btn-sm {
         padding: 5px 8px;
